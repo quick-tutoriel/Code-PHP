@@ -1,9 +1,10 @@
-<?php // custom WordPress database error page wpchannel.com
+<?php 
 
 header('HTTP/1.1 503 Service Temporarily Unavailable');
 header('Status: 503 Service Temporarily Unavailable');
 header('Retry-After: 3600'); // 1 hour = 3600 seconds
 mail("VOTREMAIL_ICI", "Database Bug", "Le site rencontre des soucis techniques (MySQL).", "From: Quick-Tutoriel");
+
 ?>
 
 <!DOCTYPE html>
