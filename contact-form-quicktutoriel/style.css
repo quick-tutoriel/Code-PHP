@@ -1,0 +1,73 @@
+/*****BEGIN Personnalisation du formulaire de contact *****/
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+.thanks { background: #F2F3F6; border: 1px solid #7E8AA2; padding:10px; }
+.errorForms { border: 1px solid #f00; padding:10px; color: #f00; }
+.error { color: #f00; }
+
+/*****Formulaire*****/
+ol.forms { float: left; list-style: none; margin: 10; width: 100%; }
+
+ol.forms li { 
+	clear: both; 
+	float: left; 
+	margin-bottom: 18px; 
+	position: relative;
+	width: 100%;
+}
+
+ol.forms label {
+	padding-right: 20px;
+	width: 100px;
+}
+
+ol.forms input, ol.forms textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #8E9BA9;
+    padding: 5px;
+    width:400px;
+}
+
+ol.forms input:hover, ol.forms textarea:hover {
+	background: none repeat scroll 0 0 #eeecec;
+    border: 1px solid #8E9BA9;
+    padding: 5px;
+    width:400px;
+}
+
+ol.forms textarea { 
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #8E9BA9;
+    padding: 5px;
+    width:400px;
+    height:200px;
+}
+
+ol.forms textarea:hover { 
+    background: none repeat scroll 0 0 #eeecec;
+    border: 1px solid #8E9BA9;
+    padding: 5px;
+    width:400px;
+}
+
+ol.forms li.screenReader { margin-bottom: 0; }
+
+ol.forms li.buttons button {
+	background-color: #F9F9F9;
+    border: 1px solid #8E9BA9;
+    width: 60px;
+    height: 30px;
+}
+
+ol.forms li.buttons button:hover { 
+    background-color: #eeecec;
+    border: 1px solid #8E9BA9;
+}
+
+ol.forms li.inline input { width: auto; }
+
+ol.forms li.inline label { 
+display: inline; 
+float: none; 
+width: auto; 
+}
+/*****END Personnalisation du formulaire de contact *****/
