@@ -126,7 +126,7 @@ EOF;
         $mailRecipient,
         $mailSubject,
         $mailBody,
-        implode("\r\n", $headers)
+        implode("\r\n", $mailHeaders)
     );
 
     if ($doSendCopy) {
@@ -137,7 +137,7 @@ EOF;
             $mailRecipient,
             $mailSubject,
             $mailBody,
-            implode("\r\n", $headers)
+            implode("\r\n", $mailHeaders)
         );
     }
 }
