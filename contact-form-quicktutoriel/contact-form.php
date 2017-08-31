@@ -152,7 +152,7 @@ $formDatas = array_map('htmlspecialchars', $formDatas);
 
 <?php if ($formSubmitted && $formIsValid): ?>
 	<div class="thanks">
-		<h1>Merci, <?=$name; ?></h1><br><br>
+		<h1>Merci, <?php echo $formDatas['contactName']; ?></h1><br><br>
 		<p>Votre e-mail a &eacute;t&eacute; envoy&eacute; avec succ&egrave;s. Vous recevrez une r&eacute;ponse sous peu.</p>
 	</div>
 <?php else: ?>
