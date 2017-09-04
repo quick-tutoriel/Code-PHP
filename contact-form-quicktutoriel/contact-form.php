@@ -97,7 +97,7 @@ if ($formSubmitted) {
     }
 }
 
-if ($formIsValid) {
+if ($formSubmitted && $formIsValid) {
     $contactName = $formDatas['contactName'];
     $sujet = $formDatas['sujet'];
     $comments = $formDatas['comments'];
